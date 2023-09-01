@@ -7,9 +7,16 @@ import androidx.appcompat.app.AppCompatActivity
 
 class SecondActivity : AppCompatActivity() {
 
+    /**
+     * Funcion que crea la actividad secundaria
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
+
+        /**
+         * Listener para cada boton que nos lleva a cada actividad
+         */
 
         val btnSubMenu1: Button = findViewById(R.id.btnSubMenu1)
         btnSubMenu1.setOnClickListener {

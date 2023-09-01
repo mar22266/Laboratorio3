@@ -7,6 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 
 class IMG6ACT : AppCompatActivity() {
 
+    /**
+     * Funcion que crea la actividad IMG6ACT
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_img6)

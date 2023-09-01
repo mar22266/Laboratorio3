@@ -7,10 +7,16 @@ import androidx.appcompat.app.AppCompatActivity
 
 class FourthActivity : AppCompatActivity() {
 
+    /**
+     * Funcion que crea la actividad cuarta
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fourth)
 
+        /**
+         * listener para cada boton que nos lleva a cada actividad
+         */
         val btnSubMenu31: Button = findViewById(R.id.btnSubMenu31)
         btnSubMenu31.setOnClickListener {
             val intent = Intent(this@FourthActivity, IMG9ACT::class.java)

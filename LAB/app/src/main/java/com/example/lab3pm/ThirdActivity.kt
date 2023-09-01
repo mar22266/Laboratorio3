@@ -7,9 +7,16 @@ import androidx.appcompat.app.AppCompatActivity
 
 class ThirdActivity : AppCompatActivity() {
 
+    /**
+     * Funcion que crea la actividad tercera
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_third)
+
+        /**
+         * Listener para cada boton que nos lleva a cada actividad
+         */
 
         val btnSubMenu21: Button = findViewById(R.id.btnSubMenu21)
         btnSubMenu21.setOnClickListener {

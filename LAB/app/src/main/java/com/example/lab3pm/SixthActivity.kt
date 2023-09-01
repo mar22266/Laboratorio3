@@ -7,9 +7,15 @@ import androidx.appcompat.app.AppCompatActivity
 
 class SixthActivity : AppCompatActivity() {
 
+    /**
+     * Funcion que crea la actividad sexta
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sixth)
+        /**
+         * Listener para cada boton que nos lleva a cada actividad
+         */
 
         val btnSubMenu51: Button = findViewById(R.id.btnSubMenu51)
         btnSubMenu51.setOnClickListener {

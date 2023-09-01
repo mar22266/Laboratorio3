@@ -6,11 +6,24 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 
+/**
+ * Andre Marroquin
+ * Gabriel paz
+ * Joaquin Campos
+ * Laboratorio 3
+ * aplicacion de personalizacion de tarjetas
+ */
 class MainActivity : AppCompatActivity() {
 
+    /**
+     * Funcion que crea la actividad principal
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        /**
+         * Listener para cada boton que nos lleva a cada actividad todos los botones a utilizar definidos en el xml
+         */
 
         val btnOption1: Button = findViewById(R.id.btnOption1)
         btnOption1.setOnClickListener {

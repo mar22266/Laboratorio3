@@ -7,9 +7,16 @@ import androidx.appcompat.app.AppCompatActivity
 
 class FifthActivity : AppCompatActivity() {
 
+    /**
+     * Funcion que crea la actividad quinta
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fifth)
+
+        /**
+         * Listener para cada boton que nos lleva a cada actividad
+         */
 
         val btnSubMenu41: Button = findViewById(R.id.btnSubMenu41)
         btnSubMenu41.setOnClickListener {
