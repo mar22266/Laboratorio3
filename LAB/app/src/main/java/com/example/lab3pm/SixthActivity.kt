@@ -1,6 +1,8 @@
 package com.example.lab3pm
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class SixthActivity : AppCompatActivity() {
@@ -9,6 +11,25 @@ class SixthActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sixth)
 
-        // Inicializar los botones y configurar sus onClickListeners...
+        val btnSubMenu51: Button = findViewById(R.id.btnSubMenu51)
+        btnSubMenu51.setOnClickListener {
+            val intent = Intent(this@SixthActivity, IMG17ACT::class.java)
+            startActivity(intent)
+        }
+        val btnSubMenu52: Button = findViewById(R.id.btnSubMenu52)
+        btnSubMenu52.setOnClickListener {
+            val intent = Intent(this@SixthActivity, IMG18ACT::class.java)
+            startActivity(intent)
+        }
+        val btnSubMenu53: Button = findViewById(R.id.btnSubMenu53)
+        btnSubMenu53.setOnClickListener {
+            val intent = Intent(this@SixthActivity, IMG19ACT::class.java)
+            startActivity(intent)
+        }
+        val btnSubMenu54: Button = findViewById(R.id.btnSubMenu54)
+        btnSubMenu54.setOnClickListener {
+            val intent = Intent(this@SixthActivity, IMG20ACT::class.java)
+            startActivity(intent)
+        }
     }
 }
