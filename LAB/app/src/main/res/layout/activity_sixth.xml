@@ -19,25 +19,25 @@
         android:fontFamily="sans-serif-light" />
 
     <Button
-        android:id="@+id/btnSubMenu1.5"
+        android:id="@+id/btnSubMenu51"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diseño 1" />
 
     <Button
-        android:id="@+id/btnSubMenu2.5"
+        android:id="@+id/btnSubMenu52"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diseño 2" />
 
     <Button
-        android:id="@+id/btnSubMenu3.5"
+        android:id="@+id/btnSubMenu53"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diseño 3" />
 
     <Button
-        android:id="@+id/btnSubMenu4.5"
+        android:id="@+id/btnSubMenu54"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diseño 4" />

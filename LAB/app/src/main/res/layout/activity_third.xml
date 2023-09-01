@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".SecondActivity">
+    tools:context=".ThirdActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,25 +19,25 @@
         android:fontFamily="sans-serif-light" />
 
     <Button
-        android:id="@+id/btnSubMenu1.2"
+        android:id="@+id/btnSubMenu21"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diseño 1" />
 
     <Button
-        android:id="@+id/btnSubMenu2.2"
+        android:id="@+id/btnSubMenu22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diseño 2" />
 
     <Button
-        android:id="@+id/btnSubMenu3.2"
+        android:id="@+id/btnSubMenu23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diseño 3" />
 
     <Button
-        android:id="@+id/btnSubMenu4.2"
+        android:id="@+id/btnSubMenu24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Diseño 4" />
