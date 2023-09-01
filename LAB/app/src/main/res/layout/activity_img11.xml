@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".IMG5ACT"
-    android:background="@drawable/design_1_bodas">
+    tools:context=".IMG11ACT"
+    android:background="@drawable/design_3_valentin">
 
     <TextView
         android:layout_width="wrap_content"
